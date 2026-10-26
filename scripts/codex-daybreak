@@ -1,0 +1,12 @@
+#!/bin/sh
+# Scope Daybreak to this Hermes security profile; ordinary Codex sessions keep
+# their own setting. This does not grant Daybreak access or change target scope.
+set -eu
+
+codex_bin=${CODEX_DAYBREAK_BIN:-/opt/homebrew/bin/codex}
+if [ ! -x "$codex_bin" ]; then
+  printf 'Codex CLI is missing or not executable: %s\n' "$codex_bin" >&2
+  exit 127
+fi
+
+exec "$codex_bin" -c daybreak=true -c default_permissions=:workspace "$@"

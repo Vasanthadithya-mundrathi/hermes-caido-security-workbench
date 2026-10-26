@@ -1,0 +1,12 @@
+#!/bin/sh
+# Give this Hermes profile write access only inside its configured workspace.
+# Other Codex sessions keep their own permissions and Daybreak setting.
+set -eu
+
+codex_bin=${CODEX_WORKSPACE_BIN:-/opt/homebrew/bin/codex}
+if [ ! -x "$codex_bin" ]; then
+  printf 'Codex CLI is missing or not executable: %s\n' "$codex_bin" >&2
+  exit 127
+fi
+
+exec "$codex_bin" -c default_permissions=:workspace "$@"

@@ -1,0 +1,13 @@
+#!/bin/sh
+# Run a local Semgrep rule without registry access, metrics, or version checks.
+# The temporary paths and CA bundle also work in Codex's macOS workspace sandbox.
+set -eu
+
+scratch=$(mktemp -d /private/tmp/semgrep-offline.XXXXXX)
+trap 'rm -rf "$scratch"' EXIT HUP INT TERM
+export SSL_CERT_FILE=${SSL_CERT_FILE:-/etc/ssl/cert.pem}
+export SEMGREP_LOG_FILE="$scratch/semgrep.log"
+export SEMGREP_SETTINGS_FILE="$scratch/settings.yml"
+export XDG_CACHE_HOME="$scratch/cache"
+
+semgrep scan --metrics=off --disable-version-check "$@"

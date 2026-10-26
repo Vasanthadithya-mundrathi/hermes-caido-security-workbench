@@ -1,0 +1,157 @@
+﻿source_id,title,source_url,feed_url,media_coverage
+B001,How top hackers approach a target: 🤓,https://www.linkedin.com/feed/update/urn:li:ugcPost:7515873042980339712/,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B002,Take these tips and go catch your first bug: 👇,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B004,Have these 3 types of mentors (or companions) to skyrocket your bug…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B005,LOOK: the actual bug bounty numbers from @NahamSec’s 12-year career. 👀,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B006,🚨 RCE on WordPress Core: CVE-2026-87902,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B007,Ever tried cracking a cipher? 🤓,,https://www.linkedin.com/company/hackinghub/posts/,Caption + video poster inspected; full video not transcribed
+B008,This is how you hack an AI chatbot for $100k 🤓,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B009,One of the keys to hacking AI chatbots: make your attack prompts…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B012,We’re happy to be a prize sponsor for Perly Dahan’s Bits n…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B015,"A few years back, pulling a specific bug bounty dataset meant writing…",,https://www.linkedin.com/company/hackinghub/posts/,Caption + video poster inspected; full video not transcribed
+B016,Mass hunting of secrets has never been this easy. 🤓,https://www.linkedin.com/posts/hackinghub_mass-hunting-of-secrets-has-never-been-this-activity-7511446577710841856-Gdmb,https://www.linkedin.com/company/hackinghub/posts/,Caption + selected video frames inspected; full video not transcribed
+B017,"You’ve tried every bypass trick, but nothing worked.",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B019,"Aside from encoding tricks, here’s another technique that can also bypass a…",https://www.linkedin.com/posts/hackinghub_aside-from-encoding-tricks-heres-another-activity-7510754348063219712-K4of,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B020,How to BYPASS protections and access hidden endpoints?,https://www.linkedin.com/posts/hackinghub_how-to-bypass-protections-and-access-hidden-activity-7510359491096305664-ATli,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B021,Have you tried hacking an AI assistant? 🤖,https://www.linkedin.com/posts/hackinghub_have-you-tried-hacking-an-ai-assistant-activity-7510074951249457152-uqXg,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B022,Intercepting the HTTP request your browser sends when you chat with an…,https://www.linkedin.com/posts/hackinghub_intercepting-the-http-request-your-browser-activity-7509667149909532673-M8t2,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B023,These are the actual prompts you can send when hacking an AI…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B024,Having a hard time catching SSRF?,https://www.linkedin.com/posts/hackinghub_having-a-hard-time-catching-ssrf-maybe-activity-7508909922974253056-i1ND,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B025,This is the first and most important thing you should look at…,https://www.linkedin.com/posts/hackinghub_this-is-the-first-and-most-important-thing-activity-7508625252537495553-OYqB,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B026,Stop misidentifying SSRF.,https://www.linkedin.com/posts/hackinghub_stop-misidentifying-ssrf-lets-clear-things-activity-7508217718215684096-InW2,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B029,You can still find success in hunting for stored/blind XSS today. 🥸,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B030,These 3 bug classes became harder to find.,https://www.linkedin.com/posts/hackinghub_these-3-bug-classes-became-harder-to-find-activity-7506768052210880512-2mHc,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B031,3 tips to get to a 75% bug bounty report hit rate:…,https://www.linkedin.com/posts/hackinghub_3-tips-to-get-to-a-75-bug-bounty-report-activity-7506373193000189952-wxVR,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B032,Analyze JS files with a Caido plugin. 🤓,https://www.linkedin.com/posts/hackinghub_analyze-js-files-with-a-caido-plugin-activity-7506088489772544001-y3TD,https://www.linkedin.com/company/hackinghub/posts/,Caption + selected video frames inspected; full video not transcribed
+B033,Want to hunt WebSockets vulns?,https://www.linkedin.com/posts/hackinghub_want-to-hunt-websockets-vulns-heres-how-activity-7505681053723045889-Ic-S,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B034,What can you do to increase the trigger chance of your blind…,https://www.linkedin.com/posts/hackinghub_what-can-you-do-to-increase-the-trigger-chance-activity-7505363806840209408-b65b,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B036,Here's how to trick an AI into exfiltrating data via HTML preview:…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B037,Here’s how Copilot Memory can be exploited: 👇,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B038,This is how password exfil via prompt injection is done. 🥸,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B039,How to hijack sessions through HTTP request smuggling: 👇,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B040,How does HTTP request smuggling work? 🤓,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B043,How to use c99 subdomain finder for an easy recon? 🥸,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B046,Want to be a better and well-known hacker?,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B048,"🚨 Massive discounts on our hacking bundles, just dropped. Pick the one…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B049,🚨 LABOR DAY WEEKEND SALE!!,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B052,How to prompt an AI to identify assets that are worth investigating.…,https://www.linkedin.com/posts/hackinghub_how-to-prompt-an-ai-to-identify-assets-that-activity-7500212650048409600-WqGQ,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B055,How do you identify an HTTP request smuggling vulnerability? 🤔,https://www.linkedin.com/posts/hackinghub_how-do-you-identify-an-http-request-smuggling-activity-7499157890889543680-94yf,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B057,Here's why you need to ditch alert(1) in your XSS testing: 🥸,https://www.linkedin.com/posts/hackinghub_heres-why-you-need-to-ditch-alert1-in-activity-7498478443244998656-f2fV,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B058,Making $100K with Caido?,https://www.linkedin.com/posts/hackinghub_making-100k-with-caido-most-hackers-use-activity-7498038294308519936-QTyS,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B060,"If you’re hunting for blind XSS, you need to hear this: 👇",https://www.linkedin.com/posts/hackinghub_if-youre-hunting-for-blind-xss-you-need-activity-7497345973510234112-l194,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B061,Don't just read posts about hacking AI. Be part of it!,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B062,"Dang, that was an ATO. 🥲",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B063,A recap of how an $8k bug was found: data exfil from…,https://www.linkedin.com/posts/hackinghub_a-recap-of-how-an-8k-bug-was-found-data-activity-7496612851038576640-h9OS,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B064,“Maximize your bounties.” 💰,https://www.linkedin.com/posts/hackinghub_maximize-your-bounties-take-this-activity-7496304136188080129-ESDl,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B065,Learn to hack JWTs in under 2 minutes: 👇,https://www.linkedin.com/posts/hackinghub_learn-to-hack-jwts-in-under-2-minutes-activity-7495896600460845056-zeDd,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B068,"Other than making things more fun, the alias command is invaluable for…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B069,⚡ New Hub: AI Connector Prompt Injection,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B070,Bypassing AI guardrails with indirect prompt injection. 🥸,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B071,Prompt-injecting a live AI connector. 👀,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B072,What is indirect prompt injection? And why you should include it in…,https://www.linkedin.com/posts/hackinghub_what-is-indirect-prompt-injection-and-why-activity-7493447775943225344-tZeb,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B073,Did you know you can use HTTP header injection to trigger response…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B074,Douglas Day uses AI to hunt for RCE.,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B075,What can a single SSH key do? 🗝️,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B076,This is how @NahamSec uses ChatGPT/Claude for pentesting.,https://www.linkedin.com/posts/hackinghub_this-is-how-nahamsec-uses-chatgptclaude-activity-7492272481823797248-k-G3,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B080,How do you set up Claude Code for bug bounty?,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B081,How to verify an IDOR? 🤔,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B082,AI can find bugs but it still can't think like a hacker.…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B083,Feed post,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B084,AI has drastically changed bug bounties.,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B085,"$500,000 from Google with AI agents. Watch as Ben Sadeghipour explains the…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B088,Introducing HackingHub Teams,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B089,"When your hack doesn't work, don't give up, go a step deeper!…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B090,Bypassing AI guardrails. 🛡️,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B091,Overview of how to reverse engineer CVEs with AI. 🤖,https://www.linkedin.com/posts/hackinghub_overview-of-how-to-reverse-engineer-cves-activity-7486813095017938945-zVHx,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B092,Where can you get a list of vulnerabilities for your CVE hunting…,https://www.linkedin.com/posts/hackinghub_where-can-you-get-a-list-of-vulnerabilities-activity-7486435728881795073-jlN0,https://www.linkedin.com/company/hackinghub/posts/,Caption + video poster inspected; full video not transcribed
+B094,Tricking an AI by abusing business logic. 🤖,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B098,Testing for SQLi?,https://www.linkedin.com/posts/hackinghub_testing-for-sqli-heres-a-simple-testing-activity-7484276420441968640-GHDf,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B100,Knowing a bit of regex is SUUUPER useful for hacking. Here's why!…,https://www.linkedin.com/posts/hackinghub_knowing-a-bit-of-regex-is-suuuper-useful-activity-7483612102541336576-2yty,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B101,"Learning to hack is hard, but it shouldn't be inefficient.",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B102,Want to know what API hacking looks like? 👀,https://www.linkedin.com/posts/hackinghub_want-to-know-what-api-hacking-looks-like-activity-7482962829847977984-2HO0,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B103,Need a 403 bypass?,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B104,Are you just starting out in your bug bounty journey?,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B108,There are still a LOT of bugs to be found. 🐞,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B109,"Nahamsec walks us through a $30,000 bug bounty finding where he was…",https://www.linkedin.com/posts/hackinghub_nahamsec-walks-us-through-a-30000-bug-bounty-activity-7478485468687380480-Q8dN,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B110,Parseltongue is a tool that helps to bypass LLM guardrails.,,https://www.linkedin.com/company/hackinghub/posts/,Caption + video poster inspected; full video not transcribed
+B111,Here's a great method for convincing an LLM to bypass its own…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B112,Gain real-world hacking experience by hacking our Hubs. 💯,https://www.linkedin.com/posts/hackinghub_gain-real-world-hacking-experience-by-hacking-activity-7477020837196296192-j6_A,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B113,"Is there a quick way to find juicy information, secrets, and credentials?",https://www.linkedin.com/posts/hackinghub_is-there-a-quick-way-to-find-juicy-information-activity-7476349076075073536-PG2a,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B114,How to HUNT for MFA bypass.,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B116,"NahamSec made $30,000 USD with a single bug, and we turned it…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B117,Want to HUNT for broken access control (BAC)?,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B120,Easily fuzz log files using a wordlist of dates 🗓️,https://www.linkedin.com/posts/hackinghub_easily-fuzz-log-files-using-a-wordlist-of-activity-7471569799580393472-Pta7,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B126,Report quality can make a huge difference.,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B128,How to ACTUALLY use AI for bug bounty hunting?,https://www.linkedin.com/posts/hackinghub_how-to-actually-use-ai-for-bug-bounty-hunting-activity-7468754186994823168-z3Jr,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B130,Things you MUST know before diving into bug bounty. 😎,https://www.linkedin.com/posts/hackinghub_things-you-must-know-before-diving-into-bug-activity-7468338656693608448-kG8t,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B134,"Watch this: If you're using AI for hacking, are you using it…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B137,The old way of hacking is dead.,https://www.linkedin.com/posts/hackinghub_the-old-way-of-hacking-is-dead-this-is-activity-7462563506404372480-Rx9s,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B145,"Don't get stuck in the ""massive subdomain"" trap 👇",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B146,"""Where do I start with Bug Bounty? Where do I actually sign…",https://www.linkedin.com/posts/hackinghub_where-do-i-start-with-bug-bounty-where-activity-7457852394593210368-TRNS,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B148,"If you're a bug bounty hunter or you want to become one,…",https://www.linkedin.com/posts/hackinghub_if-youre-a-bug-bounty-hunter-or-you-want-activity-7457127627661930496-WgQk,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B150,What if you could find every unique asset a company owns just…,https://www.linkedin.com/posts/hackinghub_what-if-you-could-find-every-unique-asset-activity-7456055740848521216-LxsQ,https://www.linkedin.com/company/hackinghub/posts/,Caption + selected video frames inspected; full video not transcribed
+B153,Looking to level up your recon with Nuclei?,https://www.linkedin.com/posts/hackinghub_looking-to-level-up-your-recon-with-nuclei-activity-7455020806557835264-xJHp,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B156,What if the notifications you trust were actually coming from a hacker?…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B158,Blind XSS isn't dead; it just requires more patience than you're used…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B159,An uncommon but elite recon method: Subscribe to every marketing email the…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B160,Don't waste keystrokes. The alias command is a critical tool for optimizing…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B162,"Large organizations often sync profile data across subdomains, moving your session from…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B172,Large organizations often move profile data from a hardened core app to…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B175,1 day left before the Bug Bounty Village takes over #BSidesSF.,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B178,🚀Visit the Bug Bounty Village: HackingHub x Caido x Bugcrowd at BSidesSF…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B179,The latest Hubs are live.,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B183,New Hub: Naham CRM 🕶️,https://www.linkedin.com/posts/hackinghub_new-hub-naham-crm-this-bug-was-worth-activity-7438230342324379649-D2Wp,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B184,IIS Filename Enum Hub 🕶️,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B194,Bug Bounty in 2026:,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B212,🚨LAST CALL: Tomorrow is the big day! Fetch the Flag 2026 with…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B213,What are the top skills for starting in Bug Bounty hunting? 🎯,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B214,Think a migration to Nginx fixed everything? Think again.,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B219,Want to find the bugs everyone else is missing? Go where they…,https://www.linkedin.com/posts/hackinghub_want-to-find-the-bugs-everyone-else-is-missing-activity-7424558140874088448-rf7O,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B222,"How do you turn a ""boring"" observation into a $70,000 bounty? 💰",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B228,Do you know how to turn a single moment of root access…,https://www.linkedin.com/posts/hackinghub_linux-linuxcommand-activity-7418789990626824193-CIQo,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B229,XSS isn't just about sticking a script tag into a search bar.…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B230,What if you could find more than just subdomains? What if you…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B231,Have you used c99.nl?,,https://www.linkedin.com/company/hackinghub/posts/,Caption + video poster inspected; full video not transcribed
+B234,Want a faster way to find subdomains without scanning? 👀,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B235,"What if a single image tag, just one line of HTML, could…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B236,Did you know the Nuclei Template Assistant can generate custom templates for…,,https://www.linkedin.com/company/hackinghub/posts/,Caption + video poster inspected; full video not transcribed
+B237,Struggling with XSS filters? 🔍,https://www.linkedin.com/posts/hackinghub_struggling-with-xss-filters-try-leaving-activity-7414388761863569408-5x1K,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B238,Stuck on a WordPress target? 🔍,https://www.linkedin.com/posts/hackinghub_stuck-on-a-wordpress-target-check-the-activity-7413988431917309952-hLfl,https://www.linkedin.com/company/hackinghub/posts/,Caption + video poster inspected; full video not transcribed
+B242,root@hackinghub:~$ ./newyear_spirit.sh --target=community,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B251,Stop generic GitHub recon!,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B254,HUGE NEWS!,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B256,One week until #NahamCon2025! ⏳,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B258,#NahamCon2025 is just 10 days away!⌛,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B259,"Sunday is for F1, right? 🏎️",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B261,"Learn by Watching, Hacking by doing.",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B262,Do you know how to build a Nuclei template that targets every…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B264,Do you know about Nuclei Templates? You should get familiar with them.,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B268,Many starting hackers quit when the first IDOR attempt fails.,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B269,The one thing you need to master Blind XSS?,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B270,🚨LAST CHANCE! Our Black Friday Sale officially ends tomorrow at Midnight PT!,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B271,Why is it a good practice to switch from simple XSS payloads…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B273,Do you know the difference between the greedy and lazy quantifiers when…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B274,"John Hammond explores Nuclei, a powerful tool designed to revolutionize your scanning…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B279,"Learn more about this awesome bug, where 2 hackers found a way…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B280,Want to learn more about how UNION SQL injections work and how…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B281,Learn more about hacking Java applications and how one simple URL encoding…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B285,Want to understand why SQL injections happen under the hood and how…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B286,"Want to learn how NahamSec scored a massive $50,000 payout by exploiting…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B287,"Want to level up your virtual host scanning, asset & content discovery…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B288,Want to hack a WordPress plugin? Look for vulnerability patterns in similar…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B291,"An easy IDOR that leaks tons of user information, but can you…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B292,Want to learn a way to find those hard-hitting critical vulnerabilities?,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B294,Struggling with finding hidden assets? Watch this short clip and then test…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B295,Did you know you can get a Linux box with the essential…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B296,Listen to these Tomcat hacking tips and put them to the test…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B298,Think you have what it takes to leverage an RCE and extract…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B299,How much do you know about WebSockets?,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B300,Find out how a new hacker struck gold with this Remote Code…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B301,"Missed NahamCon 2025 CTF, but up for a challenge?",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B303,Take your knowledge about recon to the next level by completing the…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B304,Check out this great methodology tip by Jason Haddix on what to…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B306,Stop searching the hard way! Regular expressions (Regex) are an awesome tool…,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B307,How are you using the most important part of hacking (Recon)?,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B311,"In Nov 2024, researchers used minimal data (name, email, or plate) to…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B312,"Need quick, free subdomain data for Bug Bounty programs? ProjectDiscovery's Chaos actively…",,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed
+B313,John Hammond tried the 'Regex for Hackers' course!,,https://www.linkedin.com/company/hackinghub/posts/,Caption recovered; video content not transcribed

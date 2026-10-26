@@ -1,0 +1,52 @@
+id,kind,name,topics,publisher,url,access,notes
+DISC001,public_disclosures,HackerOne Hacktivity,bug-bounty|web|api|idor|access-control,HackerOne,https://hackerone.com/hacktivity/overview,public-filter,Select Disclosed to view public report contents
+DISC002,public_disclosures,Bugcrowd CrowdStream,bug-bounty|web|api,Bugcrowd,https://bugcrowd.com/crowdstream,public-filter,Visibility varies by program and disclosure level
+DISC003,public_disclosures,GitHub Advisory Database,open-source|cve|supply-chain,GitHub,https://github.com/advisories,public,Advisories are not necessarily full researcher reports
+DISC004,public_disclosures,OSV,open-source|cve|supply-chain,Open Source Vulnerabilities,https://osv.dev/,public,Aggregated vulnerability records with source references
+DISC005,public_disclosures,CVE Program,cve|advisory,CVE Program,https://www.cve.org/,public,Identifier records and references
+DISC006,public_disclosures,NIST NVD,cve|advisory,NIST,https://nvd.nist.gov/vuln/search,public,Enriched vulnerability records; check source advisories
+DISC007,public_disclosures,CISA Known Exploited Vulnerabilities,cve|prioritization,CISA,https://www.cisa.gov/known-exploited-vulnerabilities-catalog,public,Known exploited catalog rather than writeups
+DISC008,public_disclosures,EU Vulnerability Database,cve|advisory,ENISA,https://euvd.enisa.europa.eu/,public,European vulnerability records and references
+DISC009,community_index,HackerOne Disclosed Reports index,bug-bounty|dataset,ajaysenr,https://github.com/ajaysenr/HackerOne-Disclosed-Reports,public,Third-party mirror; check current coverage and reuse terms
+DISC010,community_index,PentesterLand bug bounty writeups,bug-bounty|writeups,PentesterLand,https://pentester.land/writeups/,public,Curated external writeup links; coverage varies
+DISC011,community_index,WriteupDB,bug-bounty|writeups,WriteupDB,https://www.writeup-db.com/writeups-list/,public,Community directory; verify original articles and freshness
+RSH001,research,GitHub Security Lab research,open-source|code-review|writeups,GitHub,https://securitylab.github.com/research/,public,Original research and advisory context
+RSH002,research,Google Project Zero blog,exploitation|writeups,Google Project Zero,https://googleprojectzero.blogspot.com/,public,Original technical research
+RSH003,research,PortSwigger Research,web|api|writeups,PortSwigger,https://portswigger.net/research,public,Original web security research
+RSH004,research,Assetnote research,recon|web|api,Assetnote,https://blog.assetnote.io/,public,Original research and asset discovery posts
+RSH005,research,Intigriti researcher blog,bug-bounty|web|api,Intigriti,https://www.intigriti.com/researchers/blog,public,Techniques and selected writeup links
+RSH006,research,Bugcrowd blog,bug-bounty|reporting,Bugcrowd,https://www.bugcrowd.com/blog/,public,Platform guidance and selected research
+RSH007,research,HackerOne blog,bug-bounty|reporting,HackerOne,https://www.hackerone.com/blog,public,Platform guidance and selected research
+RSH008,research,YesWeHack learning,bug-bounty|reporting,YesWeHack,https://www.yeswehack.com/learn-bug-bounty,public,Learning and report-writing guidance
+RSH009,research,HackingHub,bug-bounty|web|ctf,HackingHub,https://www.hackinghub.io/,public,Training platform associated with the source-labeled extraction
+RSH010,research,Orange Tsai - The Art of PHP,ctf|php|web|writeups,Orange Tsai,https://blog.orange.tw/posts/2025-08-the-art-of-php-ch/,public,First-person technical CTF essay used as a writing-structure reference
+CTF001,ctf_writeups,CTFtime writeups,ctf|web|pwn|crypto|reverse,CTFtime,https://ctftime.org/writeups,public,Community writeup index by event and tags
+CTF002,ctf_practice,pwn.college dojos,ctf|pwn|linux|systems,pwn.college,https://pwn.college/dojos,account-for-progress,Structured practical curriculum
+CTF003,ctf_practice,picoCTF practice,ctf|web|crypto|reverse,picoCTF,https://play.picoctf.org/practice,account,Practice challenges and learning material
+CTF004,ctf_practice,CryptoHack challenges,ctf|crypto,CryptoHack,https://cryptohack.org/challenges/,account-for-progress,Cryptography challenges and archive
+CTF005,ctf_writeups,CryptoHack blog,ctf|crypto|writeups,CryptoHack,https://blog.cryptohack.org/,public,Publisher blog with CTF writeups
+CTF006,ctf_practice,OverTheWire wargames,ctf|linux|pwn,OverTheWire,https://overthewire.org/wargames/,public,Authorized challenge servers and rules
+CTF007,ctf_practice,Hack The Box Academy,ctf|web|systems,Hack The Box,https://academy.hackthebox.com/,account,Training modules; some paid access
+CTF008,ctf_practice,PortSwigger Web Security Academy,web|api|labs|idor|access-control,PortSwigger,https://portswigger.net/web-security,public,Free web security labs and explanations
+CTF009,ctf_practice,OWASP Juice Shop,web|labs,OWASP,https://owasp.org/www-project-juice-shop/,public,Intentionally vulnerable training app
+CTF010,ctf_practice,OWASP WebGoat,web|labs,OWASP,https://owasp.org/www-project-webgoat/,public,Intentionally vulnerable training app
+CTF011,ctf_practice,HackingHub Hubs,web|ctf|labs,HackingHub,https://app.hackinghub.io/hubs,account,Hands-on labs; check access terms
+REF001,reference,OWASP Web Security Testing Guide,web|api|methodology|idor|access-control,OWASP,https://wstg.owasp.org/,public,Use versioned chapters for stable citations
+REF002,reference,OWASP ASVS,web|api|requirements,OWASP,https://asvs.owasp.org/,public,Security verification requirements
+REF003,reference,OWASP API Security,api|methodology,OWASP,https://owasp.org/API-Security/,public,API risk and testing guidance
+REF004,reference,OWASP Cheat Sheet Series,web|api|remediation,OWASP,https://cheatsheetseries.owasp.org/,public,Defensive controls and implementation guidance
+REF005,reference,OWASP Mobile Application Security,mobile|methodology,OWASP,https://mas.owasp.org/,public,Mobile security standards and testing guide
+REF006,reference,MITRE CWE,classification|reporting,MITRE,https://cwe.mitre.org/data/index.html,public,Weakness taxonomy; class alone is not severity
+REF007,reference,FIRST CVSS,severity|reporting,FIRST,https://www.first.org/cvss/,public,Use version required by the program
+REF008,reference,MITRE ATT&CK,threat-model|adversary,MITRE,https://attack.mitre.org/,public,Behavioral knowledge base; not a bug bounty report index
+REF009,reference,GitHub Code Security docs,open-source|advisory,GitHub,https://docs.github.com/en/code-security,public,Advisory and vulnerability reporting documentation
+REF010,reference,Caido documentation,proxy|web|api,Caido,https://docs.caido.io/,public,Primary Caido setup and features reference
+REF011,reference,Hermes Agent documentation,agent|desktop|mcp,Nous Research,https://hermes-agent.nousresearch.com/docs,public,Primary Hermes Desktop and MCP reference
+REF012,reference,ProjectDiscovery documentation,recon|nuclei|automation,ProjectDiscovery,https://docs.projectdiscovery.io/,public,Primary tool documentation
+REF013,reference,OBS Studio knowledge base,recording|evidence,OBS Studio,https://obsproject.com/kb/,public,Primary screen recording setup reference
+COMM001,community_reference,HackTricks,web|systems|ctf,HackTricks,https://book.hacktricks.wiki/,public,Community notes; verify against primary sources
+COMM002,community_reference,PayloadsAllTheThings,web|api|ctf,swisskyrepo,https://github.com/swisskyrepo/PayloadsAllTheThings,public,Community techniques; use only within scope
+COMM003,community_reference,SecLists,wordlists|recon,danielmiessler,https://github.com/danielmiessler/SecLists,public,Wordlist collection; respect rate and scope limits
+COMM004,community_reference,YesWeHack Claude Kit,reporting|agent,YesWeHack,https://github.com/yeswehack/claude-kit,public,Upstream reporting ideas; review its license
+COMM005,community_reference,Caido skills,proxy|agent,Caido,https://github.com/caido/skills,public,Claude-focused skill; review auth and storage assumptions
+COMM006,community_reference,ProjectDiscovery Nuclei templates,nuclei|templates,ProjectDiscovery,https://github.com/projectdiscovery/nuclei-templates,public,Template source; validate safety and results

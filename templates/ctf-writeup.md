@@ -4,7 +4,6 @@
 
 - **Event / challenge / category:** [verified names]
 - **Environment:** [relevant versions, architecture, artifact hashes]
-- **Solve status:** [local reproduction / service accepted / unverified]
 - **Credits:** [user, teammates, challenge author, prior research as supported]
 
 ## The detail that mattered
@@ -28,17 +27,17 @@ $ [verified command or action]
 [observed output; redact sensitive values and honor flag-sharing rules]
 ```
 
-## Checking the answer
+## The decisive check
 
-[Explain the independent check: re-encode, replay, hash, run a test, or quote a confirmed service response. State exactly what passed and what has not been checked.]
+[Show the actual independent check and its observed output. Include a service acceptance response only if it exists. Do not add a self-referential disclaimer about who ran the command or a paragraph listing checks that did not happen.]
 
 ## What I took away
 
-[One specific reusable insight and, if useful, the limitation of this technique. Avoid unsupported real-world impact claims.]
+[One specific reusable insight. Avoid unsupported real-world impact claims.]
 
 ## References and credits
 
 - [Primary challenge page or supplied source, if public and allowed]
 - [Relevant official documentation or credited prior work]
 
-<!-- Editor-only: Before publication, confirm event embargo, first-person provenance, code/output accuracy, flag policy, links, and credits. Delete unsupported sections rather than filling gaps with invented detail. -->
+<!-- Editor-only: Before publication, confirm event embargo, first-person provenance, code/output accuracy, flag policy, links, and credits. Keep missing proof and attribution questions here, outside publish-ready prose. Delete unsupported sections rather than filling gaps with invented detail. -->

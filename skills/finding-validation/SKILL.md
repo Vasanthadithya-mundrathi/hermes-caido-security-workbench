@@ -11,4 +11,6 @@ For an authorized live test, compare an expected baseline with one changed input
 
 Capture the smallest redacted request/response or artifact pair that proves the result. Record test time, host, account/role labels, object ownership, request IDs, expected versus actual behavior, and every relevant limitation. Preserve contradictions; do not rewrite evidence to fit the hypothesis.
 
+Check prior art before calling a finding report-ready: program disclosures, vendor advisories, CVE/GHSA aliases, relevant fixes, and comparable reports in the local library. Record why this looks like the same root cause, a regression, or a distinct boundary. Public searching can lower duplicate risk but cannot reveal private submissions.
+
 Return one of: **supported**, **promising but unverified**, **disproved**, or **out of scope/unknown scope**. Explain the decisive observation and the next safe check only when it changes the verdict. Severity follows demonstrated consequence and the program's method, not the class name. Hand a supported, documented result to `evidence-based-reporting`.

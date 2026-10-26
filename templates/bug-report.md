@@ -3,7 +3,6 @@
 - **Affected asset:** [exact in-scope asset; include policy reference]
 - **Classification:** [CWE or program taxonomy, if supported]
 - **Severity:** [program-required method and vector, or “unscored pending evidence”]
-- **Evidence status:** [directly inspected / researcher-reported / inference / unknown]
 
 ## Description
 
@@ -20,19 +19,16 @@
 
 ## Evidence
 
-| Artifact | Source | What it establishes | Limit |
-|---|---|---|---|
-| [E1] | [private attachment name] | [specific observation] | [what cannot be inferred] |
+| Artifact | What it shows |
+|---|---|
+| [E1] | [specific observed result, with a private attachment reference] |
 
 ## Impact
 
-[Demonstrated consequence, affected role/object, and known bounds. Put plausible but unverified consequences under Unknowns rather than asserting them here.]
+[Demonstrated consequence and affected role/object. Omit unverified downstream effects rather than adding a disclaimer paragraph.]
 
 ## Remediation
 
 [Concrete control or validation at the security boundary, when justified by the evidence.]
 
-## Unknowns / reviewer notes (remove or resolve before submission)
-
-- [Missing scope, attachment, reproduction, version, or impact evidence.]
-- [Any claim that relies only on researcher recollection or inference.]
+<!-- Editor-only: Record missing scope, attachments, reproduction, version, attribution, or impact evidence outside submission-ready prose. Narrow unsupported claims instead of adding a self-referential caveat to the report. -->

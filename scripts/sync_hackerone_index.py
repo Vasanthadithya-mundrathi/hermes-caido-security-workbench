@@ -14,9 +14,9 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_REPO = "https://github.com/ajaysenr/HackerOne-Disclosed-Reports"
 SOURCE_JSON = "https://raw.githubusercontent.com/ajaysenr/HackerOne-Disclosed-Reports/main/index.json"
-DESTINATION = ROOT / "data" / "hackerone-disclosed-index.csv"
+DESTINATION = ROOT / "HACKSPACE" / "data" / "hackerone-disclosed-index.csv"
 FIELDS = (
-    "id", "url", "title", "visibility", "program", "reporter", "severity",
+    "id", "url", "title", "visibility", "program", "reporter", "severity", "bounty",
     "weakness", "reported_at", "disclosed_at", "source_index",
 )
 

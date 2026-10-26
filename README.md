@@ -2,7 +2,7 @@
 
 A macOS desktop workbench for **authorized** bug bounty research and CTF practice. It combines Hermes Agent, Caido, Codex, evidence capture, reporting templates, and an organized index of public reports and writeups.
 
-**Start here:** [research and setup report](REPORT.md) · [Hermes model profiles](docs/hermes-profile.md) · [macOS setup](docs/setup-macos.md) · [research workflow](docs/workflow.md) · [CTF writing](docs/ctf-writing.md) · [screen recording](docs/recording.md) · [public resource catalog](catalog/README.md) · [report template](templates/bug-report.md)
+**Start here:** [HACKSPACE report library](HACKSPACE/README.md) · [public research hub](HACKSPACE/RESEARCH-HUB.md) · [research and setup report](REPORT.md) · [Hermes model profiles](docs/hermes-profile.md) · [macOS setup](docs/setup-macos.md) · [research workflow](docs/workflow.md) · [CTF writing](docs/ctf-writing.md) · [screen recording](docs/recording.md) · [public resource catalog](catalog/README.md) · [report template](templates/bug-report.md)
 
 ## What this repository contains
 
@@ -15,6 +15,7 @@ A macOS desktop workbench for **authorized** bug bounty research and CTF practic
 | `skills/` | Portable agent instructions for Caido, local code review, CTF solving and first-person writeups, evidence, validation, and reporting |
 | `templates/` | Engagement card, evidence ledger, bounty report, CTF writeup, and Hermes workspace instructions |
 | `scripts/` | Catalog tools plus scoped Codex and offline Semgrep launchers |
+| `HACKSPACE/` | Local-only report index and advisory corpus, source-checked payout cases, and public Wiz/XBOW/Hacktron/Gray Swan research notes |
 
 ## Scope and evidence rules
 
@@ -28,7 +29,8 @@ A macOS desktop workbench for **authorized** bug bounty research and CTF practic
 
 ```mermaid
 flowchart LR
-    H[Hermes Desktop security profiles] --> X[Codex app-server runtime]
+    H[Hermes Desktop security/BUGGY/PROOF/SCOUT] --> X[Codex app-server runtime]
+    O[Hermes native default orchestrator] --> H
     X --> M[Caido MCP server]
     C[Codex Desktop] --> M
     D[Hermes default fallback] --> M
@@ -61,7 +63,7 @@ Validated on Apple Silicon macOS on **2026-10-26**:
 
 Versions are a dated local snapshot, not a promise that they remain latest. Follow [maintenance](docs/maintenance.md) to review releases and upgrade selectively.
 
-The active Hermes Desktop profile is `security`. It uses the ChatGPT/Codex subscription through Codex app-server with a profile-local `daybreak=true` request; `default` retains the working `gpt-6-sol-900k` fallback. [Profile details](docs/hermes-profile.md) explain what was tested and why Astra/GPT-6.1 Sol do not gain reduced refusals under Daybreak Blue. Start the local Caido instance before using its MCP tools.
+The active Hermes Desktop profile is `security`. It uses the ChatGPT/Codex subscription through Codex app-server with a profile-local `daybreak=true` request; `default` retains the working `gpt-6-sol-900k` fallback and delegates to BUGGY, PROOF, and SCOUT through Hermes-native `delegate_task`. [Profile details](docs/hermes-profile.md) explain the tested runtime limit and why Astra/GPT-6.1 Sol do not gain reduced refusals under Daybreak Blue. Start the local Caido instance before using its MCP tools.
 
 ## Make the catalog useful
 
@@ -69,7 +71,7 @@ The index is intentionally link-based. Filter `catalog/resources.csv` by `kind` 
 
 The included HackingHub extraction covers 315 feed entries and 90 separately indexed post pages with overlap; it is **not** an all-time archive. See [its source and coverage notes](research/hackinghub/README.md).
 
-An optional local-only sync indexed **6,526** Pentester Land links and **12,672** community-cataloged HackerOne report URLs on 2026-10-25. After URL deduplication the local SQLite library contains **19,190** links. The public `catalog/resources.csv` has **51** curated source links. These counts are not independently verified as complete; the larger CSV and SQLite files live in Git-ignored `data/`. See [catalog instructions](catalog/README.md) to refresh and search them.
+The [HACKSPACE bug-report library](HACKSPACE/README.md) now holds a local-only index of **6,526** Pentester Land links and **12,673** community-cataloged HackerOne report URLs as of 2026-10-26. After URL deduplication the SQLite library contains **19,191** links; seven high-payout examples were checked against their original publisher pages. The [audited local corpus](HACKSPACE/CORPUS-SNAPSHOT.md) contains 5.05 GB of canonical advisory/enrichment archives, plus a duplicate extracted CVE ZIP for lookup. These are not 5 GB of mirrored bounty reports. The public `catalog/resources.csv` has **58** curated source links. Counts are not independently verified as complete; the larger CSV, SQLite, and bulk advisory archives live in Git-ignored `HACKSPACE/data/`. See [catalog instructions](catalog/README.md) to refresh and search them.
 
 ## Sources and reuse
 

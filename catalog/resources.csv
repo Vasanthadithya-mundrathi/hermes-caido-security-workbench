@@ -20,6 +20,13 @@ RSH007,research,HackerOne blog,bug-bounty|reporting,HackerOne,https://www.hacker
 RSH008,research,YesWeHack learning,bug-bounty|reporting,YesWeHack,https://www.yeswehack.com/learn-bug-bounty,public,Learning and report-writing guidance
 RSH009,research,HackingHub,bug-bounty|web|ctf,HackingHub,https://www.hackinghub.io/,public,Training platform associated with the source-labeled extraction
 RSH010,research,Orange Tsai - The Art of PHP,ctf|php|web|writeups,Orange Tsai,https://blog.orange.tw/posts/2025-08-the-art-of-php-ch/,public,First-person technical CTF essay used as a writing-structure reference
+RSH011,research,Wiz Research,cloud|ai-security|mcp|cve,Wiz,https://www.wiz.io/research,public,Original cloud and AI security research with dated disclosures
+RSH012,research,Wiz AI Security Academy,ai-security|cloud|reference,Wiz,https://www.wiz.io/academy/ai-security,public,Educational knowledge base; verify technical claims against original research
+RSH013,research,XBOW Labs advisories,ai-pentesting|cve|advisory,XBOW,https://xbow.com/labs/advisories,public,Original published advisories; console assessment is commercial
+RSH014,research,Hacktron research,ai-pentesting|code-review|bug-bounty,Hacktron,https://www.hacktron.ai/blog,public,Vendor-authored research and workflow posts; check original evidence
+RSH015,research,Gray Swan AI research,prompt-injection|ai-agent|benchmark,Gray Swan AI,https://www.grayswan.ai/research,public,Original adversarial AI studies and links to papers
+RSH016,research,TeamH4C research,ai-agent|ctf|vulnerability-research,TeamH4C,https://h4c.team/,public,Member-authored tutorials and research; do not infer a private team-wide tool stack
+RSH017,research,Open Cloud Vulnerability Database,cloud|cve|research,Wiz,https://www.cloudvulndb.org/,public,Public cloud platform vulnerability prior art with source references
 CTF001,ctf_writeups,CTFtime writeups,ctf|web|pwn|crypto|reverse,CTFtime,https://ctftime.org/writeups,public,Community writeup index by event and tags
 CTF002,ctf_practice,pwn.college dojos,ctf|pwn|linux|systems,pwn.college,https://pwn.college/dojos,account-for-progress,Structured practical curriculum
 CTF003,ctf_practice,picoCTF practice,ctf|web|crypto|reverse,picoCTF,https://play.picoctf.org/practice,account,Practice challenges and learning material

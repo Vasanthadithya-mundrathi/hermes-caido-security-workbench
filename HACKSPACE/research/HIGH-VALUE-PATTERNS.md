@@ -1,0 +1,14 @@
+# Research patterns from paid reports
+
+Reviewed 2026-10-26. These are **classes of question** to investigate only on owned assets or current in-scope programs. None is a claim that a new target is vulnerable. Read each source for its exact conditions and fix before using it as prior-art context.
+
+| Boundary to examine | Example that made it concrete | Smallest useful evidence in a new authorized context | Duplicate check |
+| --- | --- | --- | --- |
+| Error path vs authorization | A denied request still returned private report context in [HackerOne #3862641](https://hackerone.com/reports/3862641). | Compare an allowed and denied role against an owned test object; inspect the entire structured body, not just status. | Search same endpoint, serializer, error object, and fix. |
+| Identity in account recovery | A [GitLab reset-flow report](https://hackerone.com/reports/2293343) showed an attacker address receiving a victim's reset link. | Use only two controlled accounts and compare what address receives a token; stop before touching anyone else's account. | Search recovery workflow, alternate input shapes, and vendor patch. |
+| Development artifact vs production credential | [Shopify #1087489](https://hackerone.com/reports/1087489) found an active repository-write token in a published app artifact. | Review an in-scope, legally available artifact; report a candidate secret privately and let the owner validate scope. | Check whether the exact token/artifact was already reported or revoked. |
+| Dependency name vs registry boundary | [PayPal #925585](https://hackerone.com/reports/925585) found internal names resolved through public npm. | Inspect authorized build configuration and package provenance without publishing a lookalike package. | Check name ownership, registry config, and prior dependency-confusion disclosures. |
+| Data filter vs code evaluation | [Mozilla #3782701](https://hackerone.com/reports/3782701) traced anonymous GraphQL input into a library operator that evaluated code. | In supplied source, trace untrusted filter structure through validation into the exact library version; use a local benign test. | Check upstream library behavior, resolver auth, deployment config, and fix. |
+| Runtime request lifetime | [PHP2Shell](PHP2SHELL.md) crossed cleanup/state boundaries in PHP internals. | Study vendor advisories and owned builds; do not submit a known CVE as a fresh flaw. | Search CVE aliases, patch commits, and affected builds. |
+
+Prioritize by impact **if proven**, chance the exact boundary exists, access to a safe decisive test, program reward policy, and likely prior art. Prefer one deep role/state/implementation comparison to many unreviewed scanner hits. For live hypotheses, record observations and contradictions in [the lead card](../templates/lead-card.md); use `finding-validation` and `ywh-reporting` before any submission.

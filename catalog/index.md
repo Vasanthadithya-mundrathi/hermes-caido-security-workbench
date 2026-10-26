@@ -32,11 +32,18 @@ The links point to publishers and discovery feeds; this is not an archive of eve
 | [Bugcrowd blog](https://www.bugcrowd.com/blog/) | bug-bounty, reporting | public | Platform guidance and selected research |
 | [GitHub Security Lab research](https://securitylab.github.com/research/) | open-source, code-review, writeups | public | Original research and advisory context |
 | [Google Project Zero blog](https://googleprojectzero.blogspot.com/) | exploitation, writeups | public | Original technical research |
+| [Gray Swan AI research](https://www.grayswan.ai/research) | prompt-injection, ai-agent, benchmark | public | Original adversarial AI studies and links to papers |
 | [HackerOne blog](https://www.hackerone.com/blog) | bug-bounty, reporting | public | Platform guidance and selected research |
 | [HackingHub](https://www.hackinghub.io/) | bug-bounty, web, ctf | public | Training platform associated with the source-labeled extraction |
+| [Hacktron research](https://www.hacktron.ai/blog) | ai-pentesting, code-review, bug-bounty | public | Vendor-authored research and workflow posts; check original evidence |
 | [Intigriti researcher blog](https://www.intigriti.com/researchers/blog) | bug-bounty, web, api | public | Techniques and selected writeup links |
+| [Open Cloud Vulnerability Database](https://www.cloudvulndb.org/) | cloud, cve, research | public | Public cloud platform vulnerability prior art with source references |
 | [Orange Tsai - The Art of PHP](https://blog.orange.tw/posts/2025-08-the-art-of-php-ch/) | ctf, php, web, writeups | public | First-person technical CTF essay used as a writing-structure reference |
 | [PortSwigger Research](https://portswigger.net/research) | web, api, writeups | public | Original web security research |
+| [TeamH4C research](https://h4c.team/) | ai-agent, ctf, vulnerability-research | public | Member-authored tutorials and research; do not infer a private team-wide tool stack |
+| [Wiz AI Security Academy](https://www.wiz.io/academy/ai-security) | ai-security, cloud, reference | public | Educational knowledge base; verify technical claims against original research |
+| [Wiz Research](https://www.wiz.io/research) | cloud, ai-security, mcp, cve | public | Original cloud and AI security research with dated disclosures |
+| [XBOW Labs advisories](https://xbow.com/labs/advisories) | ai-pentesting, cve, advisory | public | Original published advisories; console assessment is commercial |
 | [YesWeHack learning](https://www.yeswehack.com/learn-bug-bounty) | bug-bounty, reporting | public | Learning and report-writing guidance |
 
 ## CTF writeups

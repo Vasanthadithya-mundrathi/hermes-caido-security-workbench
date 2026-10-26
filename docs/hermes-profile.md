@@ -20,6 +20,10 @@ When an authorized security or CTF request is blocked on `astra`, `sol61`, `proo
 
 Each profile has its own settings, SOUL, skills, and sessions. `config/HERMES-SOUL.md` supplies the common Hermes identity; `config/BUGGY-SOUL.md`, `PROOF-SOUL.md`, and `SCOUT-SOUL.md` supply concise role identities. A private work directory holds `templates/HERMES-AGENTS.md`, current scope notes, fixtures, proxy evidence, and challenge files. The app-server profiles' `terminal.cwd` points to that directory. `scripts/codex-daybreak` and `scripts/codex-workspace` set Codex's `:workspace` permission **for those Hermes runs only**, so tools can write inside the private lab without changing the global Codex configuration. Network access in the tested Codex sandbox was off; live target work still requires program authorization and an appropriate network route.
 
+The updated SOULs make `default` own the shared request budget and artifact ledger, BUGGY prioritize falsifiable high-value leads, SCOUT compare original root causes and fixes, and PROOF issue an independent evidence-cited verdict. [HACKSPACE's workflow](../HACKSPACE/WORKFLOW.md) has the local queue, handoff, and candidate-gate commands. Direct `security` chats use the same workspace instructions and skills, while native `default` remains the orchestrator for subagent handoffs.
+
+In this installation, the private lab has the writable `leads.jsonl`; Git-ignored `HACKSPACE/private/leads.jsonl` points to it so the native parent and app-server profiles share the queue. The lab's `AGENTS.md` records the checkout's absolute path because the app-server current directory is outside the repository. A direct `security` tool call ran the queue check there with exit 0.
+
 The Codex app-server runtime supplies Codex's shell, patch, sandbox, and configured MCP servers, including Caido. The profiles have the original and local workbench skills, including `hackspace-research`; the user's `ywh-reporting` skill stays installed locally. The GPL-licensed `ywh-reporting` files are not copied into this MIT-licensed repository. The Hermes-native `delegate_task`, manual `memory`, `session_search`, and `todo` tools are unavailable in the app-server loop. A direct `security` smoke test confirmed that `delegate_task` was absent. Use `default` to delegate; its native runtime has the official [advanced-delegation plugin](https://hermes-agent.nousresearch.com/docs/plugins/advanced-delegation) pinned to `e404b681`, with `buggy`, `proof`, and `scout` as the only allowed profile routes and a three-child concurrency cap. A read-only test routed to SCOUT on `gpt-6.1-sol` and returned the 19,191-link local count. See [Hermes' runtime documentation](https://hermes-agent.nousresearch.com/docs/user-guide/features/codex-app-server-runtime) and [profiles guide](https://hermes-agent.nousresearch.com/docs/user-guide/profiles).
 
 ## Recreate on a signed-in installation
@@ -76,6 +80,7 @@ hermes -p astra -z 'Reply exactly ASTRA_READY.'
 hermes -p sol61 -z 'Reply exactly SOL61_READY.'
 hermes -p default -z 'Reply exactly DEFAULT_READY.'
 hermes -p default delegation config --show
+python3 HACKSPACE/scripts/eval_findings.py run --profile proof --limit 2
 ```
 
 Start the **local Caido instance** before a Caido MCP call. If it is stopped, `mcp test` or the agent may return an error even though OAuth and configuration are intact. After starting it, a read-only `caido_list_projects` through `security` returned `0 projects` in this setup. These checks demonstrate connectivity and local tool use; they do not validate a live finding or every MCP action.

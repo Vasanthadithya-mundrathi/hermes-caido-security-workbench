@@ -2,7 +2,7 @@
 
 A macOS desktop workbench for **authorized** bug bounty research and CTF practice. It combines Hermes Agent, Caido, Codex, evidence capture, reporting templates, and an organized index of public reports and writeups.
 
-**Start here:** [HACKSPACE report library](HACKSPACE/README.md) · [public research hub](HACKSPACE/RESEARCH-HUB.md) · [research and setup report](REPORT.md) · [Hermes model profiles](docs/hermes-profile.md) · [macOS setup](docs/setup-macos.md) · [research workflow](docs/workflow.md) · [CTF writing](docs/ctf-writing.md) · [screen recording](docs/recording.md) · [public resource catalog](catalog/README.md) · [report template](templates/bug-report.md)
+**Start here:** [HACKSPACE report library](HACKSPACE/README.md) · [research-to-report workflow](HACKSPACE/WORKFLOW.md) · [public research hub](HACKSPACE/RESEARCH-HUB.md) · [research and setup report](REPORT.md) · [Hermes model profiles](docs/hermes-profile.md) · [macOS setup](docs/setup-macos.md) · [research workflow](docs/workflow.md) · [CTF writing](docs/ctf-writing.md) · [screen recording](docs/recording.md) · [public resource catalog](catalog/README.md) · [report template](templates/bug-report.md)
 
 ## What this repository contains
 
@@ -15,7 +15,7 @@ A macOS desktop workbench for **authorized** bug bounty research and CTF practic
 | `skills/` | Portable agent instructions for Caido, local code review, CTF solving and first-person writeups, evidence, validation, and reporting |
 | `templates/` | Engagement card, evidence ledger, bounty report, CTF writeup, and Hermes workspace instructions |
 | `scripts/` | Catalog tools plus scoped Codex and offline Semgrep launchers |
-| `HACKSPACE/` | Local-only report index and advisory corpus, source-checked payout cases, and public Wiz/XBOW/Hacktron/Gray Swan research notes |
+| `HACKSPACE/` | Local-only report index and advisory corpus, source-checked payout cases, public Wiz/XBOW/Hacktron/Gray Swan research notes, ranked lead queue, evidence gate, and offline finding-judgment evals |
 
 ## Scope and evidence rules
 
@@ -72,6 +72,8 @@ The index is intentionally link-based. Filter `catalog/resources.csv` by `kind` 
 The included HackingHub extraction covers 315 feed entries and 90 separately indexed post pages with overlap; it is **not** an all-time archive. See [its source and coverage notes](research/hackinghub/README.md).
 
 The [HACKSPACE bug-report library](HACKSPACE/README.md) now holds a local-only index of **6,526** Pentester Land links and **12,673** community-cataloged HackerOne report URLs as of 2026-10-26. After URL deduplication the SQLite library contains **19,191** links; seven high-payout examples were checked against their original publisher pages. The [audited local corpus](HACKSPACE/CORPUS-SNAPSHOT.md) contains 5.05 GB of canonical advisory/enrichment archives, plus a duplicate extracted CVE ZIP for lookup. These are not 5 GB of mirrored bounty reports. The public `catalog/resources.csv` has **58** curated source links. Counts are not independently verified as complete; the larger CSV, SQLite, and bulk advisory archives live in Git-ignored `HACKSPACE/data/`. See [catalog instructions](catalog/README.md) to refresh and search them.
+
+The [HACKSPACE workflow](HACKSPACE/WORKFLOW.md) orders scoped leads by information gain and cost, preserves every link-index source membership, gives PROOF an independent artifact-first handoff, and checks private evidence packets before drafting. Six synthetic evidence-judgment cases cover supported, weak, contradicted, out-of-scope, and agent-action examples; they do not establish any live finding.
 
 ## Sources and reuse
 

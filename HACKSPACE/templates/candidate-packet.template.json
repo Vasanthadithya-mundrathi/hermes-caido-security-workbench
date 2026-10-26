@@ -1,0 +1,79 @@
+{
+  "candidate_id": "[private ID]",
+  "scope": {
+    "mode": "bounty",
+    "policy_url": "[current program policy URL]",
+    "policy_reviewed_at": "[YYYY-MM-DD]",
+    "asset": "[exact in-scope asset]",
+    "access": "Attackable",
+    "roles": ["[controlled role A]", "[controlled role B]"]
+  },
+  "hypothesis": "[one falsifiable statement]",
+  "boundary": "[actor to object or agent/tool boundary]",
+  "expected_control": "[the control that should apply]",
+  "artifacts": [
+    {
+      "id": "E1",
+      "path": "[private path to redacted baseline]",
+      "sha256": "[SHA-256 of that file]",
+      "provenance": "observed",
+      "fact": "[exact fact established]"
+    },
+    {
+      "id": "E2",
+      "path": "[private path to changed-condition evidence]",
+      "sha256": "[SHA-256 of that file]",
+      "provenance": "observed",
+      "fact": "[exact fact established]"
+    },
+    {
+      "id": "E3",
+      "path": "[private path to negative control]",
+      "sha256": "[SHA-256 of that file]",
+      "provenance": "observed",
+      "fact": "[exact fact established]"
+    }
+  ],
+  "baseline_id": "E1",
+  "variant_id": "E2",
+  "negative_control_id": "E3",
+  "negative_control_exception": "",
+  "reproduction": {
+    "attempts": 2,
+    "successes": 2,
+    "state_reset_or_reason": "[how equivalent starting state was restored or why a reset was unsafe]"
+  },
+  "competing_explanations": [
+    {
+      "explanation": "[one plausible benign explanation]",
+      "disposition": "ruled_out",
+      "evidence_ids": ["E3"]
+    }
+  ],
+  "impact_claims": [
+    {
+      "claim": "[smallest demonstrated consequence]",
+      "evidence_ids": ["E2"]
+    }
+  ],
+  "prior_art": {
+    "searched_at": "[YYYY-MM-DD]",
+    "sources": ["[original report or advisory URL]"],
+    "comparison": "distinct_root",
+    "reason": "[specific root-cause or fix difference; use regression/incomplete_fix only with evidence]"
+  },
+  "independent_review": {
+    "reviewer": "PROOF",
+    "verdict": "supported",
+    "reason": "[independent conclusion after inspecting raw artifacts]",
+    "evidence_ids": ["E1", "E2", "E3"]
+  },
+  "ai_agent": {
+    "enabled": false,
+    "model_and_tools": "",
+    "action_evidence_id": "",
+    "user_visible_evidence_id": "",
+    "success_definition": "",
+    "concealment_claim": false
+  }
+}

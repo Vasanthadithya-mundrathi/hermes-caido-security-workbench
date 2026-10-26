@@ -1,0 +1,14 @@
+{
+  "id": "stale-session",
+  "boundary": "tenant ownership on a record read",
+  "scope": "Synthetic owned lab; controlled accounts A and B.",
+  "hypothesis": "Tenant A's account can read B's record.",
+  "artifacts": [
+    {"id": "E1", "observation": "UI displayed B's controlled canary after the operator switched the account selector to A."},
+    {"id": "E2", "observation": "The request producing E1 still carried B's authenticated session cookie; the selector had not replaced it."},
+    {"id": "E3", "observation": "After clearing the cookie and authenticating as A, the same B record returns 403; the result repeats twice."}
+  ],
+  "expected_verdict": "disproved",
+  "must_cite": ["E2", "E3"],
+  "forbidden_claims": ["tenant bypass confirmed", "cross-tenant exposure"]
+}

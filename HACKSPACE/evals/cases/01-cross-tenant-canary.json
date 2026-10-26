@@ -1,0 +1,15 @@
+{
+  "id": "cross-tenant-canary",
+  "boundary": "tenant ownership on a record read",
+  "scope": "Synthetic owned lab; both accounts and both records are controlled by the evaluator.",
+  "hypothesis": "Tenant A can read Tenant B's controlled record without sharing.",
+  "artifacts": [
+    {"id": "E1", "observation": "Fixture manifest assigns record R-B and value CANARY-B to Tenant B only; no share exists."},
+    {"id": "E2", "observation": "Tenant A reads its own R-A record and receives CANARY-A."},
+    {"id": "E3", "observation": "With Tenant A's session, a read of R-B returns CANARY-B and identifies R-B as the response object; the same result repeats after an equivalent reset."},
+    {"id": "E4", "observation": "With Tenant A's session, a nonexistent record returns 404; a different Tenant A account also reads R-B only when intentionally shared."}
+  ],
+  "expected_verdict": "supported",
+  "must_cite": ["E1", "E3"],
+  "forbidden_claims": ["account takeover", "all customers", "production data"]
+}

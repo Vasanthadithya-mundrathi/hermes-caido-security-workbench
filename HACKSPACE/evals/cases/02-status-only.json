@@ -1,0 +1,15 @@
+{
+  "id": "status-only",
+  "boundary": "tenant ownership on a record read",
+  "scope": "Synthetic owned lab; session and requested IDs are controlled, but record ownership is not documented.",
+  "hypothesis": "Tenant A may be able to read another tenant's record by guessing its ID.",
+  "artifacts": [
+    {"id": "E1", "observation": "Tenant A's own record request returns HTTP 200 with its expected data."},
+    {"id": "E2", "observation": "A request with a guessed different ID returns HTTP 200."},
+    {"id": "E3", "observation": "The E2 response body is an empty error envelope and contains no other tenant's value or metadata."},
+    {"id": "E4", "observation": "No source establishes who owns the guessed ID or whether it exists."}
+  ],
+  "expected_verdict": "unverified",
+  "must_cite": ["E2", "E3"],
+  "forbidden_claims": ["cross-tenant data read", "sensitive data exposed", "account takeover"]
+}
